@@ -14,6 +14,7 @@ RUN apt update &&                  \
         git                        \
         wget                       \
         xvfb                       \
+        fcitx-frontend-dev         \
         flex                       \
         dh-make                    \
         debhelper                  \
@@ -28,6 +29,8 @@ RUN apt update &&                  \
         libgl1-mesa-dev            \
         libudev-dev                \
         qt5-default                \
+        qttools5-dev               \
+        qtdeclarative5-dev         \
         qtbase5-private-dev      &&\
     apt clean
 
